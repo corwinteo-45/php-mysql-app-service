@@ -8,7 +8,7 @@
         require "database/config.php";
 
         //Establish the connection
-        $conn = mysqli_init()
+        $conn = mysqli_init();
         if(!mysqli_real_connect($conn, $host, $username, $password, $db_name, 3306)){
             die('Failed to connect to MySQL: '.mysqli_connect_error());
         }
