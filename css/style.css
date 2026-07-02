@@ -141,3 +141,39 @@ tr:hover {
   gap: 12px;
   flex-wrap: wrap;
 }
+
+.center-align {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  text-align: center;
+}
+
+.center-align h1 {
+  background: linear-gradient(90deg, #0078d4, #005a9e);
+  color: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.center-align h2 {
+  margin-bottom: 20px;
+}
+
+.center-align > table {
+  margin-top: 20px;
+}
+
+td a {
+  background: #0078d4;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+td a:hover {
+  background: #005a9e;
+  text-decoration: none;
+}
